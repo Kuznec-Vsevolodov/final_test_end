@@ -1,0 +1,147 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: none !important;
+}
+
+.nav-menu a{
+    color: #fff;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    background-color: rgb(209, 45, 45);
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.register-item{
+    width: 136px;
+    background-color: #C04149;
+}
+
+.login-item{
+    width: 108px;
+    background-color: #6A8ED4;
+}
+
+.nav-elements{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px !important;
+}
+
+.user_nav{
+    background: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user_drop{
+    background-color: #272727;
+}
+
+.user_drop_item{
+    transition:0.2s
+}
+
+.user_drop_item:hover{
+    background-color: transparent;
+    color: #C04149;
+}
+
+.search{
+    position: relative;
+    background-color: #282828;
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    padding-left: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.search-sender{
+    position: absolute;
+    z-index: 9;
+    background-color: transparent;
+    border: none;
+    padding-left: 21px;
+    padding-right: 19px;
+}
+
+.current-chat-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.current-chat-link a{
+    color: #fff;
+    font-size: 15px;
+    background: #282828;
+    border-radius: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+.card{
+    color: #fff;
+    border: none
+}
+
+.card-header{
+    background: #282828;
+}
+
+.card-body{
+    background: #282828;
+}
+
+.card input{
+    background: #333333;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.card button{
+    background: #6A8ED4;
+    border-radius: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #fff
+}
+
+.card button:hover{
+    color: #fff
+}
